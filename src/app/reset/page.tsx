@@ -3,7 +3,7 @@
 import React, { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
-import { ShieldCheck, ShieldAlert, KeyRound, Mail, Lock, Key } from 'lucide-react';
+import { ShieldCheck, ShieldAlert, KeyRound, Mail, Lock, Key, Eye, EyeOff } from 'lucide-react';
 
 function ResetPageContent() {
   const router = useRouter();
